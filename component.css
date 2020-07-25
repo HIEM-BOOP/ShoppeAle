@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #F7452E;
+    --dark-primary: #AC1400;
+    /* --light-primary: ; */
+    --success-color: #48C774;
+    --opacity-success-color: #48C77477;
+    --info-color: #3298DC;
+    --warn-color: #FFDD57;
+    --alert-color: #F14668;
+}
+
+body {
+    position: relative;
+}
+
+/* button: loại được sử dụng nhiều nhất: primary; solid; medium */
+
+.btn {
+    color: white;
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+}
+
+/* style & color */
+
+.btn-solid-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.btn-solid-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+    color: white;
+}
+
+.btn-solid-info {
+    background-color: var(--info-color);
+    border-color: var(--info-color);
+    color: white;
+}
+
+.btn-solid-warn {
+    background-color: var(--warn-color);
+    border-color: var(--warn-color);
+    color: white;
+}
+
+.btn-solid-alert {
+    background-color: var(--alert-color);
+    border-color: var(--alert-color);
+    color: white;
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: white;
+}
+
+.btn-outline-success {
+    color: var(--success-color);
+    border: 1px solid var(--success-color);
+    background-color: white;
+}
+
+.btn-outline-info {
+    color: var(--info-color);
+    border: 1px solid var(--info-color);
+    background-color: white;
+}
+
+.btn-outline-warn {
+    color: var(--warn-color);
+    border: 1px solid var(--warn-color);
+    color: white;
+}
+
+.btn-outline-alert {
+    color: var(--alert-color);
+    border: 1px solid var(--alert-color);
+    color: white;
+}
+
+.btn-success {
+    color: white;
+    background-color: var(--success-color);
+}
+
+.btn-info {
+    color: white;
+    background-color: var(--info-color);
+}
+
+.btn-warn {
+    color: white;
+    background-color: var(--warn-color);
+}
+
+.btn-alert {
+    color: white;
+    background-color: var(--alert-color);
+}
+
+/* size */
+
+.btn-small {
+    padding: 5px 10px;
+}
+
+.btn-medium {
+    padding: 7px 12px;
+}
+
+.btn-large {
+    padding: 10px 15px;
+}
+
+/* hover */
+
+/* Popup */
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 80%;
+    max-height: 80%;
+    background-color: white;
+    min-width: 50%;
+    padding: 20px 20px;
+}
+
+.notify {
+    top: 0;
+    color: white;
+    background-color: var(--opacity-success-color);
+    border-radius: 4px;
+    position: fixed;
+    top: 90vh;
+    right: 50px;
+    /* right: 50px; */
+    padding: 10px;
+}
+
+.notify-primary {
+    background-color: var(--primary-color);
+}
+
+.notify-success {
+    background-color: var(--success-color);
+}
+
+.notify-alert {
+    background-color: var(--alert-color);
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: 1px #ddd;
+    padding: 7px 11px;
+    border-radius: 3px;
+}
+
+.input-primary {
+    border: 1px solid var(--primary-color);
+}
+
+.input-success {
+    border: 1px solid var(--success-color);
+}
+
+.input-alert {
+    border: 1px solid var(--alert-color);
+}
+
+/* size */
+
+.input-small {
+    padding: 5px 10px;
+}
+
+.input-medium {
+    padding: 7px 12px;
+}
+
+.input-large {
+    padding: 10px 15px;
+}
+
+/* Bo tròn */
+
+.input-rounded {
+    border-radius: 290486px;
+    padding-left: calc(calc(75em - 1px) + .375em);
+    padding-right: calc(calc(.75em - 1px) + .375em);
+}
+
+/* Thông báo :)) */
+
+.notifycation {
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.notify-success{
+    background-color: var(--success-color);
+}
+.notify-info{
+    background-color: var(--info-color);
+}
+.notify-warn{
+    background-color: var(--warn-color);
+}
